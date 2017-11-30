@@ -1,0 +1,17 @@
+{
+    "lines": 100,
+    "statements": 100,
+    "functions": 100,
+    "branches": 100,
+    "reporter": [
+        "cobertura",
+        "lcov"
+    ],
+    "all": true,
+    "check-coverage": true,
+    "report-dir": "./coverage",
+    "cache": false,
+    "sourceMap": false,
+    "instrument": false,
+    "require": ["babel-register"]
+}
